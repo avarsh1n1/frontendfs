@@ -85,7 +85,7 @@ function Add() {
           type="number"
           style={styles.input}
           placeholder="Quantity"
-          value={stationery.year}
+          value={stationery.qty}
           onChange={(e) => setStationery({ ...stationery, qty: e.target.value })}
         />
         <button style={styles.button} onClick={handlePost}>
